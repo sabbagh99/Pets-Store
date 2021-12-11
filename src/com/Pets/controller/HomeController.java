@@ -314,15 +314,14 @@ public class HomeController extends BaseController implements Initializable {
 
     }
 
-    private void fillObservableList(List<JSONObject> list) {
+    private int fillObservableList(List<JSONObject> list) {
         for (int i = 0; i < list.size(); i++) {
             observableList.add(new Pet(list.get(i).get("id").toString(), list.get(i).get("name").toString(), list.get(i).get("photoUrls").toString(), list.get(i).get("status").toString()));
         }
+        return observableList.size();
     }
 
     private void initActions() {
-
-
         btnSearch();
         btnClearAction();
         btnCloseAction();

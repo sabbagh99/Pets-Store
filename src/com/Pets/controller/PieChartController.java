@@ -1,6 +1,7 @@
 package com.Pets.controller;
 
 
+import com.Pets.Global;
 import com.Pets.view.ViewFactory;
 import javafx.beans.binding.Bindings;
 import javafx.collections.FXCollections;
@@ -30,15 +31,15 @@ public class PieChartController extends BaseController implements Initializable 
     public void initialize(URL url, ResourceBundle resourceBundle) {
         ObservableList<PieChart.Data> pieChartData =
                 FXCollections.observableArrayList(
-                        new PieChart.Data("Avalable", avaListSize),
-                        new PieChart.Data("Sold", soldListSize),
-                        new PieChart.Data("Pending", penListSize));
+                        new PieChart.Data(Global.STATUS_AVAILABLE, avaListSize),
+                        new PieChart.Data(Global.STATUS_SOLD, soldListSize),
+                        new PieChart.Data(Global.STATUS_PENDING, penListSize));
 
 
         pieChartData.forEach(data ->
                 data.nameProperty().bind(
                         Bindings.concat(
-                                data.getName(), " amount: ", data.pieValueProperty()
+                                data.getName(), " pets: ", data.pieValueProperty()
                         )
                 )
         );

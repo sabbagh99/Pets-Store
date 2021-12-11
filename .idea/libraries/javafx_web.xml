@@ -14,10 +14,8 @@
       <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-17.0.1/lib/json-simple-1.1.jar!/" />
       <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-17.0.1/lib/httpcore-4.4.14.jar!/" />
       <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-17.0.1/lib/javafx-swt.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-17.0.1/lib/javafx-graphics-18-ea+8.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
-    <jarDirectory url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-17.0.1/lib/javafx-graphics-18-ea+8.jar!/" recursive="false" />
   </library>
 </component>
