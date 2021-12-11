@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="javafx.web">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-17.0.1/lib/javafx.web.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-17.0.1/lib/javafx.fxml.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-17.0.1/lib/javafx.graphics.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-17.0.1/lib/javafx.base.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-17.0.1/lib/javafx.swing.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-17.0.1/lib/gson-2.8.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-17.0.1/lib/json-20210307.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-17.0.1/lib/javafx.media.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-17.0.1/lib/unirest-java-1.4.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-17.0.1/lib/javafx.controls.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-17.0.1/lib/json-simple-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-17.0.1/lib/httpcore-4.4.14.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-17.0.1/lib/javafx-swt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-17.0.1/lib/javafx-graphics-18-ea+8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="jar://$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-17.0.1/lib/javafx-graphics-18-ea+8.jar!/" recursive="false" />
+  </library>
+</component>
